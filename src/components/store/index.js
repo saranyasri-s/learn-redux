@@ -7,6 +7,9 @@ const counterReducer = (state = { counter: 0 }, action) => {
   if (action.type === "decrement") {
     return { counter: state.counter - 1 };
   }
+  if (action.type === "increaseBy") {
+    return { counter: state.counter + action.value };
+  }
   return state;
 };
 const store = createStore(counterReducer);
