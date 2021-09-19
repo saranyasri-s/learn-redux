@@ -1,0 +1,35 @@
+.Counter {
+  width: 60%;
+  height: 50vh;
+  margin: auto;
+  margin-top: 6rem;
+  text-align: center;
+  background-color: #bcaaa4;
+  border: 2px solid brown;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column;
+}
+.Counter p {
+  font-size: 1.2rem;
+}
+.buttons {
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  padding: 1rem 2rem;
+  color: rgb(226, 10, 28);
+  border: 2px solid brown;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+button:hover {
+  background-color: rgb(226, 10, 28);
+  cursor: pointer;
+  color: white;
+}
