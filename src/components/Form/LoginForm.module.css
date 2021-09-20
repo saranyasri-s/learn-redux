@@ -1,23 +1,29 @@
-.Counter {
+.Form {
+  color: #012601;
   width: 60%;
-  margin: auto;
-  margin-bottom: 2rem;
   padding: 2rem;
+  margin: auto;
   margin-top: 6rem;
-  text-align: center;
+  text-align: flex-start;
   background-color: #ffc2d7;
-  box-sizing: border-box;
+  font-weight: bold;
   border: 2px solid brown;
   border-radius: 10px;
   display: flex;
   flex-flow: column;
+  box-sizing: border-box;
 }
-.Counter p {
-  font-size: 1.2rem;
-  font-weight: bold;
-  border: 1px solid brown;
-  width: 30%;
-  margin: auto;
+
+.Form div label,
+.Form div input {
+  display: block;
+  width: 94%;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem 1rem;
+}
+.Form div input {
+  border-radius: 5px;
+  border: 1px solid rgb(50, 85, 65);
 }
 .buttons {
   width: 50%;
@@ -28,7 +34,6 @@
 }
 button {
   padding: 0.5rem 1.2rem;
-  margin: auto 0.5rem;
   color: rgb(226, 10, 28);
   border: 2px solid brown;
   border-radius: 5px;

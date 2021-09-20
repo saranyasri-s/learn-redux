@@ -1,0 +1,28 @@
+.mainHeader {
+  font-weight: bold;
+  padding: 0.5rem;
+  background-color: #31cc2c;
+
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainHeader h3 {
+  margin: 0;
+}
+.mainHeader nav {
+  display: flex;
+  align-items: center;
+}
+.mainHeader nav div {
+  margin: auto 1rem;
+}
+.mainHeader nav div button {
+  padding: 0.4rem 0.5rem;
+  border: 1px solid red;
+}
+.mainHeader nav div button:hover {
+  border: 1px solid white;
+  background-color: brown;
+}
