@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import classes from "./LoginForm.module.css";
-import { authActions } from "../store/index";
+import { authActions } from "../store/auth";
 function LoginForm() {
   const dispatch = useDispatch();
   const [name, setName] = useState("");
