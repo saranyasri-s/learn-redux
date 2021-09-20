@@ -1,0 +1,15 @@
+.MyProfile {
+  color: #012601;
+  width: 60%;
+  padding: 2rem;
+  margin: auto;
+  margin-top: 6rem;
+  text-align: flex-start;
+  background-color: #ffc2d7;
+  font-weight: bold;
+  border: 2px solid brown;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+}

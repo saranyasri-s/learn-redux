@@ -4,7 +4,7 @@ import { counterActions } from "./store/index";
 import { useSelector, useDispatch } from "react-redux";
 function Counter() {
   const counter = useSelector((state) => {
-    return state.counter;
+    return state.counter.counter;
   });
   const dispatch = useDispatch();
   const addCounterHandler = () => {
